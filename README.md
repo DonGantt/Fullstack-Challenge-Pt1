@@ -26,3 +26,23 @@ You may implement this project in any programming language, frameworks, and libr
   * Provide instructions on how to run the server
   * Document each step
 * Make it easy to install
+
+
+## Instructions and Set Up
+
+-Currently this is functional only with MongoDB 
+
+1) Type 'git clone [insert github link]' 
+2) Open up the project folder in the IDE of your choice 
+3) Make sure you have Node.JS installed in your environment
+4) Type `npm install`, 'yarn install', or your equivalent command to download all of the dependencies of in order for it to run choice
+5) Open the configs folder. Then add your personal MongoDB connection string.
+(It should look like this
+
+PORT: 7777,
+DB_STRING: your database string not surrounded by quotes
+
+)
+6) Type 'npm run start', 'yarn run start', or your equivalent command and the server will now run. 
+
+Note: There is a small bug that will cause the DB to not load on initial render. If that happens just refresh the page and it will be fine
