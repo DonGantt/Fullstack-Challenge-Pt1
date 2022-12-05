@@ -40,9 +40,11 @@ You may implement this project in any programming language, frameworks, and libr
 (It should look like this
 
 PORT: 7777,
+
 DB_STRING: your database string not surrounded by quotes
 
 )
+
 6) Type 'npm run start', 'yarn run start', or your equivalent command and the server will now run. 
 
 Note: There is a small bug that will cause the DB to not load on initial render. If that happens just refresh the page and it will be fine
